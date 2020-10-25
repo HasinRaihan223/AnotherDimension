@@ -1,4 +1,4 @@
-public class HW11{
+public class ArrayOps{
 
   public static int sum(int[] arr){
     int total = 0;
