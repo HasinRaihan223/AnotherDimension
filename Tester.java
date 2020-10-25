@@ -10,12 +10,15 @@ public class Tester{
     int[] a2 = {4,-3,123};
     System.out.println(ArrayOps.largest(a2));
 
-    //SumRows method 
+    //SumRows method
     int[][]  a3 = { {  1,  0, 12, -1 },
                   {  7, -2,  2,  1 },
                   { -5, -2,  2, -9 }
                };
     System.out.println(Arrays.toString(ArrayOps.sumRows(a3)));
+
+    //largestInRows method
+    System.out.println(Arrays.toString(ArrayOps.largestInRows(a3)));
 
 
   }
