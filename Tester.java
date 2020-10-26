@@ -23,5 +23,8 @@ public class Tester{
     //Overloaded Sum (2D array) method
     System.out.println(ArrayOps.sum(a3));
 
+    //sumCols method
+    System.out.println(Arrays.toString(ArrayOps.sumCols(a3)));
+
   }
 }
